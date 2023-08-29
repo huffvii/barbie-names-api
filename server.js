@@ -90,6 +90,6 @@ app.get('/api/:name', (request, response)=>{
     
 })
 
-app.listen(process.env.port || PORT, ()=> {
-    console.log(`The server is now running on port ${PORT} YOU BETTER GO CATCH IT!!!`)
+app.listen(process.env.PORT || PORT, ()=> {
+    console.log(`The server is now running on port ${PORT}! YOU BETTER GO CATCH IT!!!`)
 })
