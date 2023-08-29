@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const PORT = 3000
+const port = process.env.PORT || 3000
 
 const movies = {
     'barbie and the rockers':{
@@ -90,6 +90,6 @@ app.get('/api/:name', (request, response)=>{
     
 })
 
-app.listen(process.env.PORT || PORT, ()=> {
+app.listen(port, ()=> {
     console.log(`The server is now running on port ${PORT} YOU BETTER GO CATCH IT!!!`)
 })
