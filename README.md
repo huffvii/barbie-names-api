@@ -8,11 +8,13 @@ Link to project:
 
 Tech used: HTML, CSS, JavaScript, Node.js, Express
 
-To create this I learned how to use API's and how to actually use Node. I was able to also apply new skills and learn Express through this process, which made the process of using Node a lot easier. I will certainly be using Express in the future to help simplify the process of creation and to work smarter not harder. This API has all the basics needed and is hosted. During the process of creation I learned to also use the Postman and Heroku to check that get's were working and providing the responses needed and then to host.
+To create this I learned how to use API's and how to use Node. I was able to also apply new skills and learn Express through this process, which made the process of using Node a lot easier. I will certainly be using Express in the future to help simplify the process of creation and to work smarter not harder. This API has all the basics needed and is hosted. During the process of creation I learned to also use the Postman and Heroku to check that get's were working and providing the responses needed and then to host.
 
 # Optimizations
 
 August 28, 2023 - No longer hosted on Heroku as they no longer list free options. Also added a gitignore file to the project and reuploaded so that it didn't include all the node modules.
+
+In the future, I would like to add many more categories to this API to make it more useful. It would also be best to find better ways of tagging the categories so that users would find it easier to search for and use the API.
 
 # Lessons Learned:
 
